@@ -73,7 +73,7 @@ saint-daniels-healthcare-rewards/
 
 ### Prerequisites
 
-- Node.js >= 22.x
+- Node.js **18.18+**, **20 LTS**, **22**, or **24** (anything in `>=18.18.0 <27`)
 - NPM or Yarn
 - Git
 
