@@ -1,0 +1,533 @@
+/* Login page styles removed - login functionality deleted */ 
+
+.snapchat-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.snapchat-logo-circle {
+  width: 180px;
+  height: 180px;
+  background-color: #FFFC00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.snapchat-logo-circle:hover {
+  transform: scale(1.05);
+}
+
+.snapchat-username {
+  color: #2d3748;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.snapchat-username h4 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.contact-page {
+  padding: 4rem 0;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #FFFC00;
+  margin-bottom: 1rem;
+}
+
+.contact-details {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.map-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-card .card-body {
+  padding: 2rem;
+}
+
+.map-card .text-primary {
+  color: #FFFC00 !important;
+}
+
+.map-placeholder {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 3rem;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-coming-soon {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.map-coming-soon h4 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.how-it-works {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+}
+
+.step-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-icon {
+  color: #FFFC00;
+  margin-bottom: 1.5rem;
+}
+
+.step-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.step-card h4 {
+  color: #2d3748;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.step-card p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Rewards Section */
+.rewards-section {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.reward-card {
+  background: white;
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reward-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  border-color: #007bff;
+}
+
+.reward-icon {
+  color: #007bff;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.reward-card:hover .reward-icon {
+  transform: scale(1.1);
+  color: #0056b3;
+}
+
+.reward-card h4 {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.reward-card p {
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Dashboard Styles */
+.dashboard-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-card {
+  background: white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  height: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+.dashboard-card .card-body {
+  padding: 1.5rem;
+}
+
+.dashboard-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive Grid Layout */
+@media (min-width: 768px) {
+  .dashboard-page .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .dashboard-page .col-md-4 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.7);
+    transform-origin: top center;
+  }
+
+  .dashboard-page {
+    padding: 0.5rem;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    min-height: 140vh; /* Increased to account for scale */
+  }
+
+  .dashboard-page .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .dashboard-page .col-md-4 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .dashboard-card {
+    margin: 0;
+    border-radius: 0.75rem;
+  }
+
+  .dashboard-card .card-body {
+    padding: 1rem;
+  }
+
+  .activity-list,
+  .offers-list,
+  .mailbox-preview {
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dashboard-header {
+    margin-bottom: 1rem;
+  }
+
+  .dashboard-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-md-4 {
+    padding: 0.5rem;
+  }
+
+  .dashboard-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .dashboard-page {
+    padding: 0.25rem;
+  }
+
+  .row {
+    padding: 0 0.25rem;
+  }
+
+  .col-md-4 {
+    padding: 0.25rem;
+  }
+
+  .dashboard-card {
+    margin: 0;
+    border-radius: 0.75rem;
+  }
+
+  .dashboard-card .card-body {
+    padding: 0.75rem;
+  }
+
+  .snapchat-logo-circle {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Dashboard Buttons */
+.dashboard-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7rem;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  border: none;
+  color: #000;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  min-width: 50px;
+}
+
+.dashboard-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #FFA500 0%, #FFD700 100%);
+}
+
+/* Modal Close Button Styles */
+.btn-close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  z-index: 1;
+}
+
+.btn-close-modal:hover {
+  color: #333;
+}
+
+/* Message Modal Specific Styles */
+.message-view .modal-header {
+  position: relative;
+  padding-right: 2.5rem;
+}
+
+.message-view .btn-close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  color: #666;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.message-view .btn-close-modal:hover {
+  color: #333;
+}
+
+/* Dashboard Mobile Layout */
+@media screen and (max-width: 767px) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dashboard-page {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .dashboard-page .container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dashboard-page .row {
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dashboard-page .col-md-4 {
+    padding: 0.5rem;
+    margin: 0 auto 1rem auto;
+    width: 95%;
+    max-width: 95%;
+    flex: 0 0 95%;
+  }
+
+  .dashboard-card {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .dashboard-card .card-body {
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .dashboard-page .col-md-4 {
+    width: 90%;
+    max-width: 90%;
+    flex: 0 0 90%;
+    padding: 0.25rem;
+  }
+
+  .dashboard-card .card-body {
+    padding: 0.75rem;
+  }
+
+  .snapchat-logo-circle {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Mobile-only message */
+.mobile-only {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-only {
+    display: flex !important;
+  }
+} 
